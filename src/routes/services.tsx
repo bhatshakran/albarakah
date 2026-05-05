@@ -12,13 +12,13 @@ import heroImg from "@/assets/hero-living.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Al Barakah Interior & Décor, Srinagar" },
+      { title: "Services — Craftronix Interior & Décor, Srinagar" },
       {
         name: "description",
         content:
-          "Al Barakah offers full-service interior design: residential & commercial, modular kitchens, wardrobes, false ceilings, painting, wallpapers, PVC paneling and turnkey renovation in Srinagar.",
+          "Craftronix offers full-service interior design: residential & commercial, modular kitchens, wardrobes, false ceilings, painting, wallpapers, PVC paneling and turnkey renovation in Srinagar.",
       },
-      { property: "og:title", content: "Services — Al Barakah" },
+      { property: "og:title", content: "Services — Craftronix" },
       {
         property: "og:description",
         content:

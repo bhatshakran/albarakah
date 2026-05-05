@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><path fill="#4A5568" d="M128,8
+           A120,120 0 0,1 248,128
+           L248,256
+           L8,256
+           L8,128
+           A120,120 0 0,1 128,8 Z"></path><path fill="#E8C4D8" d="M128,48
+           A80,80 0 0,1 208,128
+           L208,256
+           L48,256
+           L48,128
+           A80,80 0 0,1 128,48 Z"></path><rect fill="#C0748A" x="8" y="216" width="240" height="40"></rect></svg>

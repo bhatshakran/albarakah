@@ -5,13 +5,13 @@ import { SiteFooter } from "@/components/site-footer";
 export const Route = createFileRoute("/process")({
   head: () => ({
     meta: [
-      { title: "Process — How We Work | Al Barakah" },
+      { title: "Process — How We Work | Craftronix" },
       {
         name: "description",
         content:
-          "Al Barakah's five-step process: consultation, design planning & 3D visualization, material selection, execution and final handover.",
+          "Craftronix's five-step process: consultation, design planning & 3D visualization, material selection, execution and final handover.",
       },
-      { property: "og:title", content: "Our Process — Al Barakah" },
+      { property: "og:title", content: "Our Process — Craftronix" },
       {
         property: "og:description",
         content:

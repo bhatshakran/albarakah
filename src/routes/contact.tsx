@@ -6,13 +6,13 @@ import { SiteFooter } from "@/components/site-footer";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Al Barakah · Srinagar Interior Design Studio" },
+      { title: "Contact — Craftronix · Srinagar Interior Design Studio" },
       {
         name: "description",
         content:
-          "Start a project with Al Barakah. Call +91 70060 19179 or email umarysnbhat@gmail.com. Studio in Natipora, Srinagar, J&K. End-to-end interior execution.",
+          "Start a project with Craftronix. Call +91 9149675010 or email umarysnbhat@gmail.com. Studio in Natipora, Srinagar, J&K. End-to-end interior execution.",
       },
-      { property: "og:title", content: "Contact — Al Barakah" },
+      { property: "og:title", content: "Contact — Craftronix" },
       {
         property: "og:description",
         content:
@@ -46,7 +46,7 @@ function ContactPage() {
             <div>
               <dt className="eyebrow">Studio</dt>
               <dd className="mt-2 leading-relaxed">
-                Al Barakah
+                Craftronix
                 <br /> Natipora, Srinagar
                 <br /> Jammu &amp; Kashmir 190015
               </dd>
@@ -66,13 +66,13 @@ function ContactPage() {
               <dt className="eyebrow">Phone &amp; WhatsApp</dt>
               <dd className="mt-2 space-y-1">
                 <a
-                  href="tel:+917006019179"
+                  href="tel:+919149675010"
                   className="block transition-colors hover:text-accent"
                 >
-                  +91 70060 19179
+                  +91 9149675010
                 </a>
                 <a
-                  href="https://wa.me/917006019179"
+                  href="https://wa.me/919149675010"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-xs uppercase tracking-[0.2em] text-accent transition-opacity hover:opacity-70"
@@ -115,7 +115,7 @@ function ContactPage() {
               await navigator.clipboard.writeText(enquiry);
 
               // Open WhatsApp with message prefilled
-              const whatsappUrl = `https://wa.me/917006019179?text=${encodeURIComponent(enquiry)}`;
+              const whatsappUrl = `https://wa.me/919149675010?text=${encodeURIComponent(enquiry)}`;
 
               window.open(whatsappUrl, "_blank");
 

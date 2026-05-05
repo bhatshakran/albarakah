@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Outer arch (edge-to-edge) -->
+  <path fill="#4A5568"
+        d="M128,8
+           A120,120 0 0,1 248,128
+           L248,256
+           L8,256
+           L8,128
+           A120,120 0 0,1 128,8 Z"/>
+
+  <!-- Inner arch -->
+  <path fill="#E8C4D8"
+        d="M128,48
+           A80,80 0 0,1 208,128
+           L208,256
+           L48,256
+           L48,128
+           A80,80 0 0,1 128,48 Z"/>
+
+  <!-- Base -->
+  <rect fill="#C0748A" x="8" y="216" width="240" height="40"/>
+</svg>

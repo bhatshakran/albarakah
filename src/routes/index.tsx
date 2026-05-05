@@ -10,15 +10,15 @@ import ceilingImg from "@/assets/service-ceiling.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Al Barakah — Interior Design & Décor Studio · Srinagar" },
+      { title: "Craftronix — Interior Design & Décor Studio · Srinagar" },
       {
         name: "description",
         content:
-          "Al Barakah crafts residential and commercial interiors in Srinagar, Kashmir. End-to-end execution — materials, skilled labor and design intelligence, fully managed.",
+          "Craftronix crafts residential and commercial interiors in Srinagar, Kashmir. End-to-end execution — materials, skilled labor and design intelligence, fully managed.",
       },
       {
         property: "og:title",
-        content: "Al Barakah — Transforming Spaces with Design & Color",
+        content: "Craftronix — Transforming Spaces with Design & Color",
       },
       {
         property: "og:description",
@@ -47,7 +47,7 @@ function HomePage() {
         <div className="container-prose grid gap-12 pb-20 pt-12 md:grid-cols-12 md:gap-8 md:pb-32 md:pt-20">
           <div className="reveal md:col-span-7 md:pt-12">
             <p className="eyebrow">
-              Al Barakah · Interior Design Studio · Srinagar
+              Craftronix · Interior Design Studio · Srinagar
             </p>
             <h1 className="display-xl mt-8">
               Transforming spaces

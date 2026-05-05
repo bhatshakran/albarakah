@@ -36,16 +36,16 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Al Barakah — Interior Design & Décor Studio · Srinagar" },
+      { title: "Craftronix — Interior Design & Décor Studio · Srinagar" },
       {
         name: "description",
         content:
-          "Al Barakah is a Srinagar-based interior design and décor studio. End-to-end residential & commercial interiors — modular kitchens, false ceilings, painting, wallpapers and PVC paneling. Materials and labor fully managed.",
+          "Craftronix is a Srinagar-based interior design and décor studio. End-to-end residential & commercial interiors — modular kitchens, false ceilings, painting, wallpapers and PVC paneling. Materials and labor fully managed.",
       },
-      { name: "author", content: "Al Barakah" },
+      { name: "author", content: "Craftronix" },
       {
         property: "og:title",
-        content: "Al Barakah — Transforming Spaces with Design & Color",
+        content: "Craftronix — Transforming Spaces with Design & Color",
       },
       {
         property: "og:description",
@@ -70,8 +70,8 @@ export const Route = createRootRoute({
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.png", sizes: "any" },
-      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+      { rel: "icon", href: "/favicon.ico", sizes: "any" },
+      { rel: "icon", href: "/favicon.ico", type: "image/svg+xml" },
       { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
     ],
   }),

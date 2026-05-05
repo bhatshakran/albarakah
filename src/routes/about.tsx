@@ -7,13 +7,13 @@ import heroImg from "@/assets/hero-living.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Al Barakah Interior Design, Srinagar" },
+      { title: "About — Craftronix Interior Design, Srinagar" },
       {
         name: "description",
         content:
-          "Al Barakah is a Srinagar-based interior design studio combining design intelligence, premium materials and skilled craftsmanship for residential and commercial spaces.",
+          "Craftronix is a Srinagar-based interior design studio combining design intelligence, premium materials and skilled craftsmanship for residential and commercial spaces.",
       },
-      { property: "og:title", content: "About Al Barakah" },
+      { property: "og:title", content: "About Craftronix" },
       {
         property: "og:description",
         content:
