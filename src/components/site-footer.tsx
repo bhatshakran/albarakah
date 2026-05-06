@@ -7,13 +7,7 @@ export function SiteFooter() {
       <div className="container-prose grid gap-12 py-20 md:grid-cols-12">
         <div className="md:col-span-5">
           <div className="flex items-center gap-3">
-            <BrandMark className="h-12 w-auto" />
-            <div className="leading-none">
-              <p className="font-display text-2xl">Craftronix</p>
-              <p className="mt-1 font-mono text-[0.6rem] uppercase tracking-[0.22em] text-muted-foreground">
-                Décor · Design · Color
-              </p>
-            </div>
+            <BrandMark className="w-60" />
           </div>
           <p className="mt-6 max-w-md font-display text-xl italic text-foreground/80">
             Transforming spaces with design &amp; color.

@@ -53,7 +53,7 @@
   --bone: oklch(0.97 0.012 80);
   --sand: oklch(0.93 0.022 80);
   --clay: oklch(0.55 0.10 60);                 /* warm muted clay */
-  --terracotta: oklch(0.74 0.14 70);           /* amber gold accent (brand) */
+  --terracotta: oklch(0.55 0.12 70);           /* amber gold accent (brand) */
   --brass: oklch(0.78 0.13 78);                /* polished brass */
   --ink: oklch(0.14 0.008 60);                 /* near-black brand */
 

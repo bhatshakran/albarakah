@@ -18,14 +18,15 @@ export function SiteHeader() {
       <div className="container-prose flex h-20 items-center justify-between">
         {/* Logo */}
         <Link to="/" className="group flex items-center gap-3">
-          <span className="flex-col leading-none flex">
-            <span className="font-display text-xl tracking-tight">
+          <BrandMark className="w-60" />
+          {/* <span className="flex-col leading-none flex">
+            <span className="font-display text-2xl tracking-tight">
               Craftronix
             </span>
             <span className="mt-1 font-mono text-[0.55rem] uppercase tracking-[0.22em] text-muted-foreground">
               Décor · Design · Color
             </span>
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop Nav */}
